@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #5C5B5B;
+}
+
+img {}
+
+.container {}
+
+/* header_part */
+header {}
+
+.fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+
+.brand b {
+  color: #fff;
+  font-family: unset;
+  font-size: 25px;
+  line-height: 0.1px;
+  margin: 0;
+}
+
+.brand span {
+  font-size: 21px;
+  font-family: initial;
+  margin: 0px;
+}
+
+.brand :hover {
+  color: #fb2056;
+}
+
+#navbarSupportedContent .nav-item {
+  margin-left: 10px;
+}
+
+#navbarSupportedContent .nav-item .nav-link {
+  color: #fff;
+  font-weight: 600;
+  font-family: unset;
+  font-size: 15px;
+  display: block;
+  transition: 0.4s;
+  border-left: 2px solid transparent;
+}
+
+#navbarSupportedContent .nav-item .nav-link2 {
+  color: #fff;
+  font-weight: 600;
+  font-family: unset;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+}
+
+#navbarSupportedContent .nav-item .nav-link:hover {
+  color: #fb2056;
+  border-left: 2px solid #ffffff;
+}
+
+#navbarSupportedContent .nav-item:last-child {
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 0px 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#navbarSupportedContent .nav-item:last-child:hover {
+  background: #fb2056;
+  color: #fff;
+}
+
+#navbarSupportedContent .nav-item .nav-link2:last-child:hover {
+  color: #fff;
+}
+
+/* banner_part */
+.banner_part {
+  position: relative;
+}
+
+.banner_img {}
+
+.banner_img img {
+  max-height: 750px;
+}
+
+.overlay {
+  background: #28333382;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.banner_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: aliceblue;
+  transform: translate(-50%, -50%);
+}
+
+.banner_content span {
+  width: 65px;
+  height: 2px;
+  display: block;
+  background: #FB2056;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.banner_content i {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.banner_content h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.banner_content a {
+  background: #FB2056;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: serif;
+  font-weight: 600;
+  border: 2px solid #fb2056;
+  transition: 0.4s;
+}
+
+.banner_content a:hover {
+  border: 2px solid #ffffff;
+}
+
+/* bannner_btm_content */
+.banner-btm-content {
+  background: #F4F5F9;
+  padding: 35px 0px;
+}
+
+.banner_btm_img {
+  width: 125%;
+  float: left;
+}
+
+.banner_btm_img img {}
+
+.baner_btm_content {
+  width: 70%;
+  float: left;
+}
+
+.baner_btm_content q {
+  font-size: 18px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bolder;
+  color: #64728D;
+}
+
+.baner_btm_content p {
+  text-align: center;
+  font-family: initial;
+  color: #8B94A0;
+}
+
+/* upcoming_event */
+.upcoming_event {
+  padding: 70px 0px 90px;
+}
+
+.upcoming_content {
+  text-align: center;
+  margin: 30px 0px 50px;
+}
+
+.upcoming_content h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.upcoming_content span {
+  width: 65px;
+  height: 2px;
+  display: block;
+  background: #FB2056;
+  margin: 0 auto;
+}
+
+.upcoming_gallary {
+  text-align: center;
+}
+
+.upcoming_gallary img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.upcoming_gallary img:hover {
+  box-shadow: 8px 8px 2px #8279794f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.upcoming_gallary h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.upcoming_gallary p {
+  font-size: 15px;
+}
+
+.upcoming_gallary a:hover {
+  color: #715158;
+  font-size: 15px;
+}
+
+.upcoming_gallary a {
+  color: #fb2056;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: initial;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+/* explore_section */
+.explore_part {
+  position: relative;
+}
+
+.explore_part img {
+  max-height: 700px;
+}
+
+.explore_content {
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+  top: 50%;
+  max-width: 500px;
+  right: 25%;
+}
+
+.explore_content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.explore_content span {
+  width: 65px;
+  height: 2px;
+  display: block;
+  background: #FB2056;
+  margin: 15px 0px;
+}
+
+.explore_content p {}
+
+.explore_content a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: initial;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.4s;
+  font-size: 14px;
+}
+
+.explore_content a:hover, .explore_content i:hover {
+  color: #FB2056;
+  font-size: 15px;
+}
+
+.explore_content i {}
+
+/* upcoming_tour_part */
+.upcoming_part {
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+
+.upcoming_content_tours {
+  max-width: 500px;
+}
+
+.upcoming_content_tours h3 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.upcoming_content_tours span {
+  width: 50px;
+  height: 2px;
+  display: block;
+  background: #FB2056;
+  margin: 20px 0px;
+}
+
+.upcoming_content_tours p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.upcoming_content_tours a {
+  background: #FB2056;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #fb2056;
+  padding: 10px 35px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 0px;
+  font-family: initial;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+
+.upcoming_content_tours a:hover {
+  background: #fff;
+  border: 1px solid #fb2056;
+  color: #fb2056;
+}
+
+.upcoming_galary {}
+
+.upcoming_galary img {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.upcoming_img-1 {
+  max-height: 194px;
+}
+
+.upcoming_img-2 {
+  min-height: 270px;
+}
+
+/* footer_section_start */
+footer {
+  background: #191919;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.footer_content {}
+
+.footer_content p {
+  font-size: 12px;
+  margin: 0px;
+}
